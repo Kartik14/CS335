@@ -1,0 +1,79 @@
+Task 2.5
+
+Hyperparameters for task 2.1:
+--------------------------------
+
+learning Rate : 0.1
+
+Number of Hidden Layers : 1 Fully Connected Layer
+
+Number of Nodes in each Hidden layer : 6 
+(Note: For certain seeds, I am able to achieve more than 90% with just 3 neurons in the training, but since the
+architecture does not work for all seeds, I am using 6 nodes in the hidden layer.)
+
+Batch Size : 10
+
+Number of epochs : 25 
+
+Training accuracies : 98.2
+
+Corresponding Seed : 1
+
+Hyperparameters for task 2.2:
+--------------------------------
+
+learning Rate : 0.1
+
+Number of Hidden Layers : 1 Fully Connected Layer
+
+Number of Nodes in each Hidden layer : 2
+
+Batch Size : 10
+
+Number of epochs : 20
+
+Training accuracies : 97.1
+
+Corresponding Seed : 1
+
+Hyperparameters for task 2.3:
+--------------------------------
+
+learning Rate : 0.1
+
+Number of Hidden Layers : 1 Fully Connected Layer
+
+Number of Nodes in each Hidden layer : 25
+(Note: For this dataset too, I was able to achieve 90%+ with just 8 neurons in the hidden layer for many seeds but
+I am using 25 neurons as It gives me higher accuracies for all seeds)
+
+Batch Size : 20
+
+Number of epochs : 10
+
+Training accuracies : 94.26
+
+Corresponding Seed : 1
+
+Hyperparameters for task 2.4:
+--------------------------------
+
+learning Rate : 0.1
+
+Number of Hidden Layers : 3 Hidden Layers (A Convolutional Layer, followed by an an Average Pooling Layer,
+followed by a Flattening Layer which is followed by a Fully Connected Layer)
+
+Number of Nodes in each Hidden layer : 
+1st Hidden Layer (Convolutional Layer) = 3*32*32
+2nd Hidden Layer (Average Pooling Layer) = 8*9*9
+3rd Hidden Layer (Fully Connected Layer) = 72
+
+Batch Size : 8
+
+Number of epochs : 12
+
+Training accuracies : 38.9%
+
+Corresponding Seed : 14
+
+
