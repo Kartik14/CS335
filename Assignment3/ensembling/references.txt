@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/43281886/get-a-random-sample-with-replacement
+https://stackoverflow.com/questions/4112265/how-to-zip-lists-in-a-list
